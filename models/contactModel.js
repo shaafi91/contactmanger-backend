@@ -4,8 +4,7 @@ const contactSchema = mangoose.Schema({
     user_id:{
         type: mangoose.Schema.Types.ObjectId,
         required: true,
-        ref: "User"
-
+        ref: "User",
     },
 
     name: {
